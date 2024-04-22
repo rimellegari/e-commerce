@@ -64,10 +64,10 @@
 
 </i>
 <h2>Fonte dos dados</h2>
-<p>O dataset usado para esse projeto encontra-se disponível em https://grouplens.org/datasets/movielens/25m/. Entre todos os datasets disponíveis foram usados dataset de filmes, avaliações e tags</p>
+<p>O dataset usado para esse projeto encontra-se disponível em https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce. 
 <i>
     <h2>Data source</h2>
-    <p>The dataset used for this project is available at https://grouplens.org/datasets/movielens/25m/. Among all available datasets, the movie, ratings, and tags datasets were used.</p>
+    <p>The dataset used for this project is available at https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce.</p>
 </i>
 <h2>Metodologia</h2>
     <p></p>
@@ -83,8 +83,6 @@
     <p></p>
 </i>
 
-![average rating](images/avg_rating.jpg)
-
 
 <p></p>
 
@@ -92,7 +90,7 @@
     <p></p>
 </i>
 
-![top_10](images/top_10.jpg)
+
 
 <h2>Conclusão</h2>
     <p></p> 
