@@ -27,7 +27,7 @@
         <li>Compreender o processo de análise de sentimento com Processamento de Linguagem Natural (PLN)consistindo em:</li>
             <li>
                 <ol>
-                    <li>Lemmatização e remoção de stopwords(remoção de palavras sem valor semântico) com uso de NLTK e Spacy<li>
+                    <li>Tratamento do texto e remoção de stopwords(remoção de palavras sem valor semântico) com uso de NLTK e Spacy<li>
                     <li>Transformação de palavras em vetores comparando a eficiência de duas técnicas distintas <i>Bag-of-words</i> e </i>Term Frequency- Inverse Document Frequency (TF-IDF)</i></li>
                     <li>Uso do scikit-learn  para testar  dois modelos de análise de sentimento (Naive-Bayes e Árvore de Decisão)</li>
                     <li>Interpretar e comparar a acurácia dos modelos usando recursos do scikit learn e visualização da matriz de confusão</li>
