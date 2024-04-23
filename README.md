@@ -56,7 +56,7 @@
                     <li>Text cleaning and stopwords removal(remove words that do not contain any semantical value for the NLP model semântico) byusing NLTK and Spacy<li>
                     <li>Feature extraction comparing the efficieny between two techniques  <i>Bag-of-words</i> and </i>Term Frequency- Inverse Document Frequency (TF-IDF)</i></li>
                     <li>Use scikit-learn to evaluate two NLP tecniques (Naive-Bayes and Decision Tree)</li>
-                    <li>Analyze and compare the accuracy of the models with features from sckit-learn and confusion matriz interpretation</li>
+                    <li>Analyze and compare the accuracy of the models with features from sckit-learn and confusion matrix interpretation</li>
                 </ol>
             </li>
         <li>Evaluate model viablity and if postive, justify the choice of the model</li>
@@ -70,10 +70,14 @@
     <p>The dataset used for this project is available at https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce.</p>
 </i>
 <h2>Metodologia</h2>
-    <p></p>
-<i>
+    <p>Para análises relacionadas ao valor médio do pedido e aos produtos mais vendidos, verificou-se se os IDs dos pedidos de compra eram únicos para não contar a mesma compra duas vezes. Todas as informações de pagamento estavam completas. Para a parte de PLN do projeto, as avaliações com menos de 3 dígitos ou vazias foram descartadas, pois não têm valor semântico. Além disso, palavras com até 10 caracteres (usadas para expressar sentimentos como bom, satisfeito, etc.) foram analisadas e um dicionário em Python foi criado para corrigi-las em todas as avaliações. Apenas avaliações com classificação e preenchimento adequados foram usadas no modelo. Como a satisfação média do cliente é 3.6 e o cliente só pode dar notas de 1, 2, 3, 4 ou 5, as classificações 4 e 5 foram consideradas positivas, enquanto o restante foi considerado negativo.</p>
+    <p>O método de NLP proposto foi baseado no trabalhos de Krishna (2018) e Akuma (2022). Ambos os autores utilizam mais de um método de vetorização e algoritmo de classificação para encontrar um modelo com melhor precisão. Para este estudo, o texto foi pré-processado removendo pontuação, stopwords (como artigos e preposições) e vetorizado empregando duas técnicas diferentes: Bag of Words (as palavras são representadas com base em sua multiplicidade, desconsiderando gramática e ordem das palavras) e Term Frequency-Inverse Document Frequency (TF-IDF), que indica se uma palavra é comum ou rara em todas as avaliações. O conjunto de dados foi dividido em conjuntos de teste e treinamento e dois algoritmos de classificação foram utilizados, Naïve Bayes e Árvore de Decisão, totalizando 4 testes. O melhor método foi escolhido com base na precisão e análise da matriz de confusão
+    </p>
     <h2>Methodology</h2>
-    <p></p>
+    <p>For analysis related to average order value and best selling products it was checked if purchase orders id were unique to not count the same purchase twice. All payment information was complete. For the NLP part of the project reviews with less than 3 digits or empty were discarded as they have no semantic value. In addition to this, words until 10 characters (charactes used to express sentiments such as good, satisfied and so on) were analysed and a python dictionary was created to correct them in all reviews. Only reviews with rating and properly filled were used on the model. As the average satisfaction of the customer is 3.6, and the customer can only score in 1,2,3,4 or 5, ratings 4 and 5 were considered positive, while the rest negative.
+    </p>
+    <p>The proposed NLP method was based on Krishna (2018) Akuma (2022) work. Both authors use more than one vectorizing method and classification algorithm to find a model with better accuracy. For this study, text was preprocessed by removing punctuation, stopwords (such as articles and preposition) and vectorized employing two different techniques Bag of Words (words are represented based on their multiplicty disregarding grammar and word order) and Term Frequency-Inverse Document Frequency (TF-IDF) which indicates if a word is common or rare across all reviews. The dataset was split into test and training sets and two classification algorithms were used, Naïve Bayes and Decision Tree, totalizing 4 tests, the best method was chosen based on accuracy and confusion matrix analysis.
+    </p>
 </i>
 <h2>Resultados</h2>
 <i><h2>Results</h2></i>
@@ -82,7 +86,6 @@
 </i>   
     <p></p>
 </i>
-
 
 <p></p>
 
@@ -98,5 +101,25 @@
 <i>
     <h2>Conclusion</h2>
     <p></p>
+
+</i>
+
+<h2>Referências</h2>
+    <p>
+    AKUMA, S.; LUBEM, T.; ADOM, I.; “Comparing Bag of Words and TF-IDF with different models for hate speech detection from live tweets”, 2022. (PDF) Comparing Bag of Words and TF-IDF with different models for hate speech detection from live tweets (researchgate.net) https://www.researchgate.net/publication/363759715_Comparing_Bag_of_Words_and_TF-IDF_with_different_models_for_hate_speech_detection_from_live_tweets
+    <p>
+    <p>
+    KRISHA, A.;AICH, A.; V, A.; HEGDE, C. “Analysis of Customer Opinion Using Machine Learning and NLP Techniques”, 2018. Analysis of Customer Opinion Using Machine Learning and NLP Techniques by Akshay Krishna, Animikh Aich, Akhilesh V, Chetana Hegde :: SSRN https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3315430
+    </p>
+
+
+<i>
+    <h2>Reference</h2>
+         <p>
+            AKUMA, S.; LUBEM, T.; ADOM, I.; “Comparing Bag of Words and TF-IDF with different models for hate speech detection from live tweets”, 2022. (PDF) Comparing Bag of Words and TF-IDF with different models for hate speech detection from live tweets (researchgate.net) https://www.researchgate.net/publication/363759715_Comparing_Bag_of_Words_and_TF-IDF_with_different_models_for_hate_speech_detection_from_live_tweets
+        </p>
+        <p>
+            KRISHA, A.;AICH, A.; V, A.; HEGDE, C. “Analysis of Customer Opinion Using Machine Learning and NLP Techniques”, 2018. Analysis of Customer Opinion Using Machine Learning and NLP Techniques by Akshay Krishna, Animikh Aich, Akhilesh V, Chetana Hegde :: SSRN https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3315430
+        </p>
 
 </i>
