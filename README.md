@@ -100,7 +100,7 @@ In relation to the second question, the product categories were grouped into two
 
 ![top-10-revenue](images/top-10-revenue.jpg)
 
-![top-10-revenue](images/top-10-revenue.jpg)
+![top-10-unit](images/top-10-unit.jpg)
 
 
 <p>Este primeiro conjunto de dados permitiu uma melhor compreensão do comportamento do cliente, especialmente nos indicadores-chave de desempenho para comércio eletrônico, como o valor médio do pedido, que foi de $47. A análise das 10 principais categorias de produtos indicou que as categorias mais vendidas são as mesmas quando classificadas pela receita ou pela quantidade de unidades vendidas. No entanto, a ordem de classificação é diferente em cada lista.</p>
