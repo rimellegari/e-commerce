@@ -25,14 +25,12 @@
         <li>Extração e tratamento de dados, entedendo quais informações são relevantes para responder as perguntas do negócio</li>
         <li>Realizar uma análise exploratória dos dados e consolidação dos resultados e explorar os recursos gráficos do seaborn para criação de visualizações mais engajadoras</li>
         <li>Compreender o processo de análise de sentimento com Processamento de Linguagem Natural (PLN)consistindo em:</li>
-            <li>
                 <ol>
-                    <li>Tratamento do texto e remoção de stopwords(remoção de palavras sem valor semântico) com uso de NLTK e Spacy<li>
+                    <li>Tratamento do texto e remoção de stopwords(remoção de palavras sem valor semântico) com uso de NLTK e Spacy</li>
                     <li>Transformação de palavras em vetores comparando a eficiência de duas técnicas distintas <i>Bag-of-words</i> e </i>Term Frequency- Inverse Document Frequency (TF-IDF)</i></li>
                     <li>Uso do scikit-learn  para testar  dois modelos de análise de sentimento (Naive-Bayes e Árvore de Decisão)</li>
                     <li>Interpretar e comparar a acurácia dos modelos usando recursos do scikit learn e visualização da matriz de confusão</li>
                 </ol>
-            </li>
         <li>Avaliar a viabilidade do modelo testado e em caso positivo, embasar a escolha de um dos modelos</li>
     </ul>
 
@@ -51,14 +49,12 @@
         <li>Data extraction and treatment, understanding which datapoints are relevant to answer business questions</li>
         <li> Perform an EDA, consolidating results in charts and exploring seaborn resources to create engaging charts (improve data visualization skills) </li>
         <li>Understand and apply sentiment analysis with Natural Language Processing (NLP) process which consists in:</li>
-            <li>
                 <ol>
-                    <li>Text cleaning and stopwords removal(remove words that do not contain any semantical value for the NLP model semântico) byusing NLTK and Spacy<li>
+                    <li>Text cleaning and stopwords removal(remove words that do not contain any semantical value for the NLP model semântico) byusing NLTK and Spacy</li>
                     <li>Feature extraction comparing the efficieny between two techniques  <i>Bag-of-words</i> and </i>Term Frequency- Inverse Document Frequency (TF-IDF)</i></li>
                     <li>Use scikit-learn to evaluate three NLP tecniques (Logistic Regression, Naive-Bayes and Decision Tree)</li>
                     <li>Analyze and compare the accuracy of the models with features from sckit-learn and confusion matrix interpretation</li>
                 </ol>
-            </li>
         <li>Evaluate model viablity and if positive, justify the choice of the model</li>
     </ul>
 
