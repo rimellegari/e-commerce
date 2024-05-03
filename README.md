@@ -1,5 +1,5 @@
-# NLP aplicado para análise de sentimentos de comentários de clientes de um e-commerce brasileiro: Um estudo comparativo de performance de de modelos, entre Árvore de Decisão e Naive Bayes
-## *NLP sentiment analysis applied to customers review in a Brazilian e-commerce:  A model  compairson study between Decision Tree and Naive Bayes*
+# NLP aplicado para análise de sentimentos de comentários de clientes de um e-commerce brasileiro: Um estudo comparativo de performance dos modelos Regressão Logística, Árvore de Decisão e Naive Bayes
+## *NLP sentiment analysis applied to customers review in a Brazilian e-commerce:  A model compairson study among Logistic Regression, Decision Tree and Naive Bayes*
 <h2>Introdução</h2>
 
 <p>A voz do cliente é a principal fonte para insights e melhorar a satisfação de clientes e com grandes plataformas de comércio eletrônico, revisar centenas e até milhares de comentários pode ser tornar um desafio. Nesse contexto, ter um modelo de análise de sentimento preciso garante que a informação chegue ao time responsável mais rapidamente e que eles consigam trabalhar para melhorar os processos, impactando na satisfação do consumidor e consequentemente no faturamento</p>
@@ -28,7 +28,7 @@
                 <ol>
                     <li>Tratamento do texto e remoção de stopwords(remoção de palavras sem valor semântico) com uso de NLTK e Spacy</li>
                     <li>Transformação de palavras em vetores comparando a eficiência de duas técnicas distintas <i>Bag-of-words</i> e </i>Term Frequency- Inverse Document Frequency (TF-IDF)</i></li>
-                    <li>Uso do scikit-learn  para testar  dois modelos de análise de sentimento (Naive-Bayes e Árvore de Decisão)</li>
+                    <li>Uso do scikit-learn  para testar  três modelos de análise de sentimento (Regressão Logística, Naive-Bayes e Árvore de Decisão)</li>
                     <li>Interpretar e comparar a acurácia dos modelos usando recursos do scikit learn e visualização da matriz de confusão</li>
                 </ol>
         <li>Avaliar a viabilidade do modelo testado e em caso positivo, embasar a escolha de um dos modelos</li>
@@ -52,7 +52,7 @@
                 <ol>
                     <li>Text cleaning and stopwords removal(remove words that do not contain any semantical value for the NLP model semântico) byusing NLTK and Spacy</li>
                     <li>Feature extraction comparing the efficieny between two techniques  <i>Bag-of-words</i> and </i>Term Frequency- Inverse Document Frequency (TF-IDF)</i></li>
-                    <li>Use scikit-learn to evaluate three NLP tecniques (Logistic Regression, Naive-Bayes and Decision Tree)</li>
+                    <li>Use scikit-learn to evaluate three NLP techniques (Logistic Regression, Naive-Bayes and Decision Tree)</li>
                     <li>Analyze and compare the accuracy of the models with features from sckit-learn and confusion matrix interpretation</li>
                 </ol>
         <li>Evaluate model viablity and if positive, justify the choice of the model</li>
